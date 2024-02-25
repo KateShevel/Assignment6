@@ -12,5 +12,7 @@ if input2 == '-':
         input4 = int(input1) - int(input3)
 elif input2 == '+':
         input4 = int(input1) + int(input3)
+elif input2 == '/':
+        input4 = int(input1) / int(input3)
 
 print(input4)
